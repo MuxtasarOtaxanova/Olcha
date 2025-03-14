@@ -44,3 +44,24 @@
   color: rgb(230, 58, 58);
   font-size: 18px;
 }
+.wishes-wrapper-undefined {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+.wishes-wrapper-undefined img {
+  width: 400px;
+  padding: 30px;
+}
+.wishes-wrapper-undefined button {
+  padding: 15px 25px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(230, 58, 58);
+}

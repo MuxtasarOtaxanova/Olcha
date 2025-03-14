@@ -1,5 +1,5 @@
 const Taqqoslash = () => {
-  return <div>Taqqoslash</div>;
+  return <div className="container">Taqqoslash</div>;
 };
 
 export default Taqqoslash;
