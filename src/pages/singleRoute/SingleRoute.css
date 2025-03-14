@@ -1,0 +1,56 @@
+.singleRoute-img {
+  width: 400px;
+  height: 500px;
+  padding: 50px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}
+.singleRoute-img img {
+  width: 100%;
+  height: 70%;
+}
+.singleRoute-img .imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.singleRoute-img .imgs img {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.singleRoute button {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.singleRoute button:hover {
+  color: red;
+}
+.singleRoute-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.singleRoute-text mark {
+  border-radius: 10px;
+  padding: 5px;
+}
+.singleRoute-text h4 {
+  margin-bottom: 20px;
+}
+.singleRoute-text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gray;
+}

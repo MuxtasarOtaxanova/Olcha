@@ -1,0 +1,68 @@
+.kirish-ul li {
+  list-style: none;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+.kirish-ul li a {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.kirish-ul li:hover {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transform: scale(1);
+}
+.kirish-wrapper h4 {
+  font-size: 18px;
+  color: gray;
+  margin-top: 15px;
+}
+.kirish-wrapper p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: rgb(230, 58, 58);
+  margin-bottom: 20px;
+}
+.kirish-card1 {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(230, 58, 58);
+  color: white;
+  border: none;
+}
+.kirish-card1 .card-text,
+.kirish-card2 .card-text {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.kirish-card1 h2,
+.kirish-card2 h2 {
+  text-align: center;
+}
+.kirish-card2 {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  border: none;
+}
+.kirish {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 1160px) {
+  .kirish {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+}
