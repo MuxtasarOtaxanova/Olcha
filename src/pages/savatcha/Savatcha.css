@@ -8,6 +8,7 @@
 .card-undefined h2 {
   font-size: 50px;
   margin-top: 20px;
+  width: 100%;
 }
 .card-undefined p {
   font-size: 18px;
