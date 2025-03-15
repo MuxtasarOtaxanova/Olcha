@@ -92,6 +92,7 @@ const Kirish = () => {
         </div>
         <div className="kirish-cards">
           <div className="kirish-card1">
+            ``
             <div className="card-text">
               <h3>Olcha balansi</h3>
               <h3>ID: 820488</h3>
