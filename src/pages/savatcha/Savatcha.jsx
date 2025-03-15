@@ -68,7 +68,9 @@ const Savatcha = () => {
                   <div className="savat-card" key={index}>
                     <div className="savat-card-wrapper">
                       <div className="savat-cardcha">
-                        <img src={item.url} alt="" />
+                        <Link to={`/product/${item.id}`}>
+                          <img src={item.url} alt="" />
+                        </Link>
                         <div className="savat-card-icon">
                           <h4>{item.title}</h4>
                           <button onClick={() => dispatch(removeCart(item))}>
