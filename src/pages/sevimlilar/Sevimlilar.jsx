@@ -56,7 +56,12 @@ const Sevimlilar = () => {
           </div>
         ) : (
           <div className="wishes-wrapper-undefined">
-            <img src={"https://olcha.uz/_nuxt/empty-img.CsNCz2BZ.png"} alt="" />
+            <div className="wishes-wrapper-undefined-img">
+              <img
+                src={"https://olcha.uz/_nuxt/empty-img.CsNCz2BZ.png"}
+                alt=""
+              />
+            </div>
             <h2>Sevimli mahsulotlar yo'q</h2>
             <Link to={"/"}>
               <button>Asosiy sahifaga</button>

@@ -49,7 +49,7 @@ const Savatcha = () => {
           {data.length == 0 ? (
             <div className="card-undefined">
               <SlBasket className="card-undefined-icon" />
-              <h2>Savatchangiz bo'sh</h2>
+              <p>Savatchangiz bo'sh</p>
               <p>Lekin siz uni har doim to'ldirishingiz mumkin</p>
               <Link to={"/"}>
                 <button>Asosiy sahifaga</button>
