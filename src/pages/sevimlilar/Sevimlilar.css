@@ -64,3 +64,7 @@
   color: white;
   background-color: rgb(230, 58, 58);
 }
+.wishes-wrapper-undefined h2 {
+  font-size: 30px;
+  text-align: center;
+}
