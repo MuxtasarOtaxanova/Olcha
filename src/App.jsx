@@ -1,8 +1,8 @@
 import "./App.css";
-import Footer from "./components/footer/footer";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/navbar";
 import Home from "./pages/home/Home";
-import Kirish from "./pages/kirish/kirish";
+import Kirish from "./pages/kirish/Kirish";
 import Savatcha from "./pages/savatcha/Savatcha";
 import Sevimlilar from "./pages/sevimlilar/sevimlilar";
 import SingleRoute from "./pages/singleRoute/SingleRoute";
