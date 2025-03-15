@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import Kirish from "./pages/kirish/Kirish";
 import Savatcha from "./pages/savatcha/Savatcha";
-import Sevimlilar from "./pages/sevimlilar/sevimlilar";
+import Sevimlilar from "./pages/sevimlilar/Sevimlilar";
 import SingleRoute from "./pages/singleRoute/SingleRoute";
 import Taqqoslash from "./pages/taqqoslash/Taqqoslash";
 import { Route, Routes } from "react-router-dom";
