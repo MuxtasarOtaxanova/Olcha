@@ -126,7 +126,7 @@
     display: flex;
     align-items: center;
   }
-  .savat-card-icon h4 {
+  .savat-card-icon {
     display: none;
   }
   .savat-card-title {
