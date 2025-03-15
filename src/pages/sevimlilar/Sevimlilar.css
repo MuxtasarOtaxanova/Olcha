@@ -47,11 +47,10 @@
 .wishes-wrapper-undefined {
   display: flex;
   flex-direction: column;
-
+  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
-  margin: auto;
 }
 .wishes-wrapper-undefined img {
   width: 400px;
